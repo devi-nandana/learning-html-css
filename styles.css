@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    margin-left:5px;
+}
+
+body{
+    background-image: linear-gradient(red,rgb(49, 49, 244));
+    margin-bottom: 10px;
+
+}
+
+.main-head{
+    padding-top: 10px;;
+    padding-left: 480px;;
+    left:500px;
+
+}
+
+.image{
+    width:80%;
+    height: 600px;
+    padding-left: 150px;
+}
+
+.un-1{
+    display: inline-block;
+    margin-left:40px;
+    margin-top: 20px;
+    vertical-align: top;
+    width: 100px;  
+    font-size:large;
+    color:bisque;
+}
+
+.un-2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 100px;
+    font-size:large;
+    color:bisque;
+      
+}
+
+.od-1{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size:large;
+    color:bisque;
+}
+
+.od-2{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size:large;
+    color:bisque;
+}
+
+table{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+td,th{
+    padding:8px;
+    margin:0;
+    text-align: center;
+    border-left: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+th{
+    background-color: rgb(171, 171, 102);
+}
+
+.col-1{
+    background-color: rgb(250, 228, 199);
+}
+
+.col-2, .col-3{
+    background-color: rgb(216, 187, 155);
+
+}
+
+.p-1{
+    color: beige;
+    text-align: center;
+}
+
+.p-2{
+    color: beige;
+    font-size: x-large;
+}
+
+.p-3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    color: aqua;
+}
+
+.link-1{
+    display: inline-block;
+    background-color: rgb(255, 201, 40);
+    font-size: large ;
+    color: black;
+
+}
+
+.link-2{
+    display: inline-block;
+    position: relative;
+    background-color: rgb(202, 236, 76);
+    font-size: large ;
+}
