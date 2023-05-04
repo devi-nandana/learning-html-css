@@ -4,34 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Mind Empowered Internship</title>
-    <style>
-        .table-head{
-            position: relative;
-            left: 114px;
-            border-style: none;
-            color: blue;
-        }
-        table,th,td{
-            border-width:2px;
-            border-style: solid;
-            border-color: rgb(165, 42, 157);
-            padding-left: 8px;
-            padding-right: 8px;
-            padding-bottom: 6px;
-        }
-
-    </style>
 </head>
 <body>
-    <h1>Mind Empowered Internship, Week-1</h1>
+    <h1 class="main-head">Mind Empowered Internship, Week-1</h1><br><br><br>
     <!-----------------------------------IMAGE----------------------------------->
-    <h2>a. Image tag</h2>
-    <img src="tree.jpg" alt="Tree image" width="500px" height="280px">
+    <h2>a. Image tag</h2><br>
+    <img src="tree.jpg" class="image" alt="Tree image" width="500px" height="280px"><br><br><br>
 
     <!------------------------------UNORDERED LIST------------------------------->
-    <h2>b. Unordered List</h2>
-    <ul>
+    <h2>b. Unordered List</h2><br>
+    <ul class="un-1">
         <h3>Days</h3>
         <li>Sunday</li>
         <li>Monday</li>
@@ -42,7 +26,7 @@
         <li>Saturday</li>
     </ul>
 
-    <ul>
+    <ul class="un-2">
         <h3>Fruits</h3>
         <li>Apple</li>
         <li>Orange</li>
@@ -50,12 +34,12 @@
         <li>Pineapple</li>
         <li>Grapes</li>
         <li>Strawberry</li>
-    </ul>
+    </ul><br><br><br>
 
     <!------------------------------ORDERED LIST------------------------------->
 
-    <h2>c. Ordered List</h2>
-    <ol type="1">
+    <h2>c. Ordered List</h2><br>
+    <ol type="1" class="od-1">
         <h3>Days</h3>
         <li>Sunday</li>
         <li>Monday</li>
@@ -67,7 +51,7 @@
 
     </ol>
 
-    <ol type="a">
+    <ol type="a" class="od-2">
         <h3>Fruits</h3>
         <li>Apple</li>
         <li>Orange</li>
@@ -76,52 +60,51 @@
         <li>Grapes</li>
         <li>Strawberry</li>
 
-    </ol>
+    </ol><br><br><br><br>
 
     <!--------------------------------TABLE--------------------------------->
     <h2>d. Table</h2>
     <table>
-        <tr>
-            <th class="table-head">Contact Details</th>
-        </tr>
-        <tr>
+        <tr class="row-2">
             <th>Name</th>
             <th>Mob No</th>
             <th>Email</th>
         </tr>
-        <tr>
-            <td>Jim</td>
-            <td>1236677846</td>
-            <td>jim@gmail.com</td> 
+        <tr class="row-3">
+            <td class="col-1">Jim</td>
+            <td class="col-2">1236677846</td>
+            <td class="col-3">jim@gmail.com</td> 
+        </tr>
+        <tr class="row-4">
+            <td class="col-1">Tom</td>
+            <td class="col-2">2333888903</td>
+            <td class="col-3">tom@gmail.com</td>
         </tr>
         <tr>
-            <td>Tom</td>
-            <td>2333888903</td>
-            <td>tom@gmail.com</td>
-        </tr>
-        <tr>
-            <td>Harry</td>
-            <td>99999933388</td>
-            <td>harry@gmail.com</td>
+            <td class="col-1">Harry</td>
+            <td class="col-2">99999933388</td>
+            <td class="col-3">harry@gmail.com</td>
         </tr>
     </table>
 
     <!--------------------------------PARAGRAPH--------------------------------->
+    <br><br><br>
     <h2>e. Paragraphs</h2>
-    <h4>Paragraph-1</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit pellentesque habitant morbi.</p>
-    <h4>Paragraph-2</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <h4>Paragraph-3</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam quisque id diam vel quam elementum. Lacus vestibulum sed arcu non odio. Sit amet risus nullam eget felis eget nunc lobortis mattis.</p>
+    <br>
+    <h4>Paragraph-1</h4><br>
+    <p class="p-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit pellentesque habitant morbi.</p><br>
+    <h4>Paragraph-2</h4><br>
+    <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
+    <h4>Paragraph-3</h4><br>
+    <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam quisque id diam vel quam elementum. Lacus vestibulum sed arcu non odio. Sit amet risus nullam eget felis eget nunc lobortis mattis.</p><br>
 
-    <!--------------------------------LINK--------------------------------->
-    <h2>f. Links</h2>
+    <!--------------------------------LINK---------------------------------><br>
+    <h2>f. Links</h2><br>
     <p>i</p>
-    <a href="https://www.mind-empowered.org/">Mind Empowered</a>
+    <a href="https://www.mind-empowered.org/" class="link-1">Mind Empowered</a>
     <br>
     <p>ii</p>
-    <a href="https://www.w3schools.com/html/">Html Tutorial</a>
+    <a href="https://www.w3schools.com/html/" class="link-2">Html Tutorial</a><br><br>
 
     
 </body>
